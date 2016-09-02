@@ -26,7 +26,7 @@ module.exports = {
   DisplayTopicsPerformanceReport: null,
   FinalURLReport: null,
   GenderPerformanceReport: null,
-  GeoPerformanceReport: null,
+  GeoPerformanceReport: require('./reports/geoPerformanceReport'),
   KeywordlessCategoryReport: null,
   KeywordlessQueryReport: null,
   KeywordsPerformanceLabelReport: null,
